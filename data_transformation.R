@@ -25,8 +25,8 @@ data_transform <- function(data, by_year = FALSE){
                                     }
                               
                                   return(data)
+
                                   }
 
 
-test <- data_transform(AirPassengers, by_year = TRUE)
-head(test)
+data_transform(AirPassengers, by_year = TRUE)
