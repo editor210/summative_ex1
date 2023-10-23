@@ -19,8 +19,6 @@ data_transform <- function(data){
   
                                  return(data)
 
+
                                  }
 
-
-test <- data_transform(AirPassengers)
-test
